@@ -8,7 +8,7 @@ body{
     max-width: 1600px;
 }
 .btn_primary{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: #ffffff;
     background-color: #006A50;
@@ -19,9 +19,11 @@ body{
 .container{
     width: 80%;
 }
+/* ------ start header section -------- */
 header{
     overflow: hidden;
 }
+/* ------- start nav section ------ */
 nav{
     display: flex;
     justify-content: space-between;
@@ -38,3 +40,40 @@ nav{
     color: #006A50;
     border: 1px solid #006A50;
 }
+/* -------- end nav section ------- */
+/* -------- start nav banner ------ */
+.nav_banner{
+    margin: auto;
+   
+}
+.nav_hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+.banner_text{
+    width: 60%;
+}
+.banner_text h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0e0e0e88;
+}
+.banner_text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #0E0E0E;
+    padding: 20px 0px;
+}
+.banner_title{}
+.banner_pic img{
+    width: 100%;
+}
+
+/* -------- emd nav banner ------ */
+/* -------- emd header section ------ */
