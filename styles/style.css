@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+    max-width: 1600px;
+}
+.btn_primary{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #006A50;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.container{
+    width: 80%;
+}
+header{
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.nav_title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.nav_input .nav_btn{
+    background-color: #006a5000;
+    color: #006A50;
+    border: 1px solid #006A50;
+}
