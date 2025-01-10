@@ -18,6 +18,7 @@ body{
 }
 .container{
     width: 80%;
+
 }
 /* ------ start header section -------- */
 header{
@@ -44,6 +45,7 @@ nav{
 /* -------- start nav banner ------ */
 .nav_banner{
     margin: auto;
+    padding-bottom: 60px;
    
 }
 .nav_hero{
@@ -76,4 +78,52 @@ nav{
 }
 
 /* -------- emd nav banner ------ */
-/* -------- emd header section ------ */
+/* -------- start main section ------ */
+/* -------- start main top section ------ */
+.main_top_section{
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.section_heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+.main_top_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.top_box{
+    padding: 24px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.301);
+    border-radius: 6px;
+}
+.top_box img{
+    margin-bottom: 20px;
+}
+.sub_title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0ee0;
+    margin-bottom: 12px;
+}
+.section_description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0ea2;
+}
+
+/* -------- emd main top section ------ */
+
+/* -------- start future section ------ */
+/* -------- start future top section ------ */
+.future_section{
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+/* -------- end future top section ------ */
+/* -------- emd main section ------ */
