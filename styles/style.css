@@ -125,5 +125,54 @@ nav{
     margin: 0 auto;
     margin-bottom: 60px;
 }
+.future_top_img{
+    margin: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.future_box{
+    padding: 32px;
+    border-radius: 8px;
+}
+.future_box p{
+    margin-bottom: 24px;
+}
+.future_box img{
+    margin-bottom: 24px;
+}
+.future_box_left{
+    background-color: #548ff53a;
+}
+.future_box_left button{
+    background-color: #5490F5;
+}
+.futuer_box_middle{
+    background-color: #C6E4D6;
+}
+.futuer_box_middle button{
+    background-color: #09A15C;
+}
+.future_box_right{
+    background-color: #F7EBCF;
+}
+.future_box_right button{
+    background-color: #FFC239;
+}
 /* -------- end future top section ------ */
+/* -------- start future bottom section ------ */
+.future_bottom_img{
+    padding: 24px;
+    position: absolute;
+}
+.futuerd_bottom_content{
+    padding: 48px 24px;
+    position: relative;
+}
+.futuerd_bottom_content h4{
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+/* -------- end future bottom section ------ */
 /* -------- emd main section ------ */
