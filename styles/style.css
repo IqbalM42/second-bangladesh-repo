@@ -162,6 +162,10 @@ nav{
 }
 /* -------- end future top section ------ */
 /* -------- start future bottom section ------ */
+.future_bottom_section{
+    background-color: #ffffff;
+    border-radius: 8px;
+}
 .future_bottom_img{
     padding: 24px;
     position: absolute;
@@ -175,4 +179,51 @@ nav{
     margin-bottom: 0px;
 }
 /* -------- end future bottom section ------ */
+/* -------- start opinion section ------ */
+.opinion_section{
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.your_opinion{
+    padding: 32px;
+    background-color: #ffffff;
+}
+.your_question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 24px;
+}
+.opinion_section .sub_title{
+    margin-bottom: 0px;
+}
+.opinion_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #C6E4D6;
+    /* padding: 24px; */
+    
+}
+.opinion_text .section_description{
+    margin-bottom: 0px;
+}
+.opinion_btn{
+    width: 16%;
+    margin-left: 27px;
+
+}
+.btn_opinion{
+    padding: 12px 16px;
+    background-color: #C6E4D6;
+    border: 1px solid #73807a;
+}
+.opinion_descriotion{
+    width: 84%;
+    padding: 24px;
+    border-right: 1px solid #C6E4D6;
+}
+
+/* -------- end opinion section ------ */
 /* -------- emd main section ------ */
