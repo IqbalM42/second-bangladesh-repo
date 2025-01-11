@@ -5,7 +5,7 @@
     font-family: "Fira Sans", serif;
 }
 body{
-    background-color: #F5F5F5;
+    background-color: #F1F1F3;
     max-width: 1600px;
 }
 .btn_primary{
@@ -269,4 +269,130 @@ nav{
 }
 
 /* -------- end news section ------ */
+
+/* -------- start donate section ------ */
+.donate_section{
+    margin: 0 auto;
+    margin-bottom: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+.donate_heading{
+    margin-bottom: 32px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.donated{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.donated_box{
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.donated_box .section_heading{
+    margin-bottom: 0px;
+}
+.donated h4{
+    padding: 20px;
+}
+.sub_para{
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+}
+.sub_para p{
+    padding: 20px 0px;
+    margin-bottom: 32px;
+}
+.btn_donate{
+    /* margin: 0 auto; */
+    text-align: center;
+}
+/* -------- end donate section ------ */
+
+/* -------- start subscribe section ------ */
+.subscribe_section{
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.subscribe_section .section_description{
+    margin-bottom: 24px;
+}
+.subscribe_containt{
+    padding: 80px 0px;
+    background-color: #C6E4D6;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.sub_text{
+    width: 70%;
+    margin: auto;
+}
+.input_btn{
+    margin-bottom: 24px;
+}
+input{
+    /* background-color: #ffffff; */
+    /* border: none; */
+
+}
+input[type="text"]{
+    position: relative;
+    width: 420px;
+    padding: 10px 20px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #ffffff;
+    border: none;
+
+}
+input[type="submit"]{
+    position: absolute;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006A50;
+    color: #ffffff;
+    /* left: -5px; */
+    
+}
+/* -------- end subscribe section ------ */
+
 /* -------- emd main section ------ */
+/* -------- start footer section ------ */
+.footer_section{
+    margin: 0 auto;
+    padding: 50px 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.sub_heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+   
+}
+footer hr{
+    width: 50%;
+    opacity: 0;
+    margin: auto;
+}
+footer hr:hover{
+    opacity: 1;
+}
+
+.footer_img{
+    margin-top: 32px;
+}
+.footer_img img{
+    margin-right: 20px;
+}
+/* -------- emd footer section ------ */
